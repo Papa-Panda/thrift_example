@@ -1,0 +1,22 @@
+Here are the steps to build and run the Thrift service in the example I provided earlier:
+
+Write the Thrift IDL file: Create a file called calculator.thrift with the contents of the IDL file that defines the Calculator service.
+
+Generate the Python files: Run the command thrift --gen py calculator.thrift to generate the Python files for the Calculator service. This will create a gen-py directory with the generated files.
+
+Implement the server: Write a Python script that implements the server for the Calculator service, using the generated Python files. In the example, this script is called calculator_server.py.
+
+Start the server: Run the calculator_server.py script to start the Thrift server and listen for incoming requests.
+
+Implement the client: Write a Python script that implements the client for the Calculator service, using the generated Python files. In the example, this script is called calculator_client.py.
+
+Run the client: Run the calculator_client.py script to connect to the Thrift server and make requests to the Calculator service.
+
+So, the correct process to build and run the Thrift service in the example is:
+
+Write the calculator.thrift file.
+Generate the Python files using thrift --gen py calculator.thrift.
+Implement the server in calculator_server.py.
+Start the server by running calculator_server.py.
+Implement the client in calculator_client.py.
+Run the client by running calculator_client.py.
