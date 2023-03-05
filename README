@@ -1,4 +1,4 @@
-Here are the steps to build and run the Thrift service in the example I provided earlier:
+Here are the steps to build and run the Thrift service:
 
 Write the Thrift IDL file: Create a file called calculator.thrift with the contents of the IDL file that defines the Calculator service.
 
