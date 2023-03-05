@@ -9,3 +9,12 @@ service Calculator {
     i32 multiply(1: i32 num1, 2: i32 num2),
     double divide(1: double num1, 2: double num2) throws (1: string message)
 }
+
+
+
+# run this command: thrift --gen py calculator.thrift
+# 3 files will be generated
+# The generated Python files for the Calculator service:
+# tutorial/Calculator.py
+# tutorial/constants.py
+# tutorial/ttypes.py
